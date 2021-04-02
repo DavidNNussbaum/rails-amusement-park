@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_02_202945) do
+ActiveRecord::Schema.define(version: 2021_04_02_211223) do
 
   create_table "admins", force: :cascade do |t|
     t.string "name"
@@ -30,7 +30,8 @@ ActiveRecord::Schema.define(version: 2021_04_02_202945) do
     t.integer "happiness"
     t.integer "tickets"
     t.integer "height"
-    t.string "password"
+    t.string "password_digest"
+    t.boolean "admin"
   end
 
 end
