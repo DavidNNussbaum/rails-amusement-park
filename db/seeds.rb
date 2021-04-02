@@ -8,8 +8,8 @@
 
 
 DATA = {
-  :user_keys =>
-    ["name", "nausea", "happiness", "tickets", "height", "password"],
+  :user_keys =["name", "nausea", "happiness", "tickets", "height", "password"]>
+    ,
   :users => [
     ["Max Charles", 0, 3, 6, 32, "password"],
     ["Skai Jackson", 1, 3, 10, 60, "password"],
